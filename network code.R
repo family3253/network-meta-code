@@ -21,8 +21,8 @@ library(tidyr)
 library(netmeta)  
 
 # Set working directory and read dataset  
-setwd("/Users/chenyechao/Downloads/meta投稿/NWMdata")  
-data <- read.csv("E:/BaiduNetdiskDownload/meta投稿/NWMdata (1)/有更改/二次更改/Overall mortality.csv")  
+setwd("")  
+data <- read.csv("xx.csv")  
 colnames(data) <- c("study", "treatment", "responders", "sampleSize")  
 
 # Create network object  
